@@ -330,8 +330,8 @@ import transformer
 ########################################################################################################################
 src_vocab_path = "../data/vocabs/en_vocab.json"
 tgt_vocab_path = "../data/vocabs/fa_vocab.json"
-src_path, src_name = "../data/dataset/mizan.zip", "en.txt"
-tgt_path, tgt_name = "../data/dataset/mizan.zip", "fa.txt"
+src_path, src_name = "../data/dataset/Tatoeba.zip", "en.txt"
+tgt_path, tgt_name = "../data/dataset/Tatoeba.zip", "fa.txt"
 SOS_TOKEN, PAD_TOKEN, EOS_TOKEN = '<SOS>', '<PAD>', '<EOS>'
 
 data_handler = transformer.DataHandler(src_path, src_name, src_vocab_path, tgt_path, tgt_name, tgt_vocab_path, 
