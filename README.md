@@ -16,7 +16,27 @@ Here is the table of content covered in this tutorial:
 
 
 ## Acknowledgments
-To Be Completed later
+
+This project leverages the Tatoeba dataset for English–Persian translation. The Tatoeba corpus is a freely available collection of sentences and translations across multiple languages. For access to the dataset, see the [Tatoeba Dataset](https://tatoeba.org/en/downloads).
+
+The development of this project also benefited greatly from several valuable resources:
+
+- **Masking in Transformers**: A clear explanation of padding and look-ahead masks is available in this [Medium article](https://medium.com/@g.martino8/all-the-questions-about-transformer-model-answered-part-5-the-padding-mask-73be0941bc1e).
+
+- **Transformer Training Loops**: For guidance on constructing training loops, loss computation, and optimization strategies, see this [Machine Learning Mastery guide](https://machinelearningmastery.com/training-the-transformer-model/).
+
+- **Inference, Teacher Forcing, and Sequence Generation**: For understanding inference strategies in transformers, including teacher forcing and token-by-token generation, consult this [Stack Overflow discussion](https://stackoverflow.com/questions/57099613/how-is-teacher-forcing-implemented-for-the-transformer-training).
+
+- **Transformer Architecture and Implementation**: In-depth coverage of transformer models, from theory to practical implementation, is available in these resources:
+  - [PyTorch Transformer Tutorials](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
+  - [DataCamp Transformer Guide](https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch)
+
+- **Ajay Halthor's Transformer Tutorials**: The YouTube playlist by Ajay Halthor provides a comprehensive end-to-end explanation of transformer architecture with code examples. 
+  - Playlist: [YouTube](https://www.youtube.com/watch?v=QCJQG4DuHT0&list=PLTl9hO2Oobd97qfWC40gOSU8C0iu0m2l4)  
+  - GitHub: [ajhalthor](https://github.com/ajhalthor)  
+
+We are grateful to all the authors and communities whose openly available resources made this project possible.
+
 
 
 ## Document Navigation
