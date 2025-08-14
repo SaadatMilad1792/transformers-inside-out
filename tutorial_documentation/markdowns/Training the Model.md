@@ -175,7 +175,8 @@ for _ in range(10):
 
 Once you run the code (note that there is only one sentence in the batch, you can change it later). You will see results similar to this, try using a bigger dataset or more complex model for better results:
 ```text
-rc:  i just don't know what to say.
+Epoch 250 / 250, Batch: 1 / 1, Loss: 3.14794
+src:  i just don't know what to say.
 tgt:  من فقط نمی دانم چه بگویم.
 trn:  م   م ه  ۸ط ننم یرغینومغنم
 
